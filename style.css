@@ -1,0 +1,33 @@
+body{
+    background-image: url(img/singapur_nochnoj_gorod_otel_59558_1440x900.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    
+    -webkit-background-size: cover;
+    
+  
+    
+    background-size: cover;
+}
+
+.delete-btn {
+    border-radius: 2px;
+    background-color: red;
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: azure;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.update-btn{
+    border-top: 20px;
+    border-radius: 2px;
+    background-color: rgb(255, 187, 0);
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: azure;
+   
+}

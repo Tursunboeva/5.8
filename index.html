@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gray-300 ">
+
+    <div class="container max-w-[1000px] mx-auto flex justify-center items-center h-screen flex-col ">
+        <form id="roomsForm" class="flex  flex-col max-w-[500px] w-full gap-[10px] bg-white p-[20px] rounded-md shadow-lg">
+            <h2 class="text-[30px]"> Complete the list</h2>
+            <input  class="border-2 form-input border-gray-500 rounded-md indent-2 h-[36px] p-[20px] " type="text" id="name" placeholder="Enter  your name">
+            <input  class="border-2 form-input border-gray-500 rounded-md indent-2 h-[36px] p-[20px]" type="number" id="number" placeholder="Indicate the number of guests">
+            <input  class="border-2 form-input border-gray-500 rounded-md indent-2 h-[36px] p-[20px]" type="number" id="number" placeholder="Abults">
+            <input  class="border-2 form-input border-gray-500 rounded-md indent-2 h-[36px] p-[20px]" type="number" id="number" placeholder="Children">
+            <select class=" form-input border-2 border-gray-500 rounded-md indent-2  text-gray-500 py-[10px] px-[30px]" >
+                <option  disabled selected >Available rooms</option>
+                <option value="num">1</option>
+                <option value="num">2</option>
+                <option disabled selected>3 armored</option>
+                <option disabled selected>4 armored</option>
+                <option disabled selected>5 armored</option>
+                <option value="num">6</option>
+                <option disabled selected>7 armored</option>
+                <option value="num">8</option>
+                <option disabled selected >9 armored</option>
+                <option value="num">10</option>
+                <option disabled selected>11  armored</option>
+                <option value="num">12</option>
+                <option value="num">13</option>
+                <option value="num">14</option>
+                <option disabled selected>15 armored</option>
+            </select>
+            
+           
+            <button class="bg-green-600 text-white p-[10px] rounded-md" type="submit">Apply</button>
+        </form>
+        <div class="roomList  bg-white w-full max-w-[500px] mt-[50px] rounded-md p-[20px]"></div>
+    </div>
+    <script src="./app.js"></script>
+
+
+  
+</body>
+</html>
